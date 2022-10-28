@@ -17,7 +17,7 @@ class UserRepository {
         email: user.email,
         password: user.password,
         confirmPassword: user.confirmPassword,
-        ip: user.ip,
+        ip: user?.ip,
         dateOfBirth: user.dateOfBirth,
         passwordChangedAt: new Date(Date.now()),
       });
